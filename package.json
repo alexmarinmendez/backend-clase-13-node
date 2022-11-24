@@ -1,0 +1,11 @@
+{
+    "type": "module",
+    "scripts": {
+        "build": "babel ./babel/color.js -o ./babel/color-transpilado.js"
+    },
+    "dependencies": {
+        "@babel/cli": "^7.19.3",
+        "@babel/core": "^7.20.2",
+        "@babel/preset-env": "^7.20.2"
+    }
+}
